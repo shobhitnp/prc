@@ -1,0 +1,108 @@
+.wrapper{
+	background-color:#fefefe;
+	padding:20px 15px;
+	margin:0 auto; 
+	width:70%;
+	text-align:center;
+	overflow: hidden;
+}
+form{
+	width: 50%;
+	margin:0 auto;
+}
+
+.wrapper .normal{
+	width: 300px;
+	height: 200px;
+	background-color: yellow;
+	padding:20px;
+	min-height: 200px;
+	margin-right: 20px;
+	margin:0 auto;
+	display: table
+}
+.wrapper .anim{
+	background-color: green;
+	height: 200px;
+	width: 200px;
+	padding:10px;
+	margin:30px auto;
+}
+.wrapper #p2{
+	color: red;
+	font-size: 22px;
+}
+
+.wrapper .div-col{
+	padding: 15px;
+	margin:20px auto;
+	width: 80%;
+	color: #fefefe
+}
+/*Animations*/
+.wrapper .div3{
+	background-color: #002257;
+}
+
+/*fade in/out*/
+.wrapper .div4{
+	background-color: #9a3cbd;
+}
+/*sliding*/
+.wrapper .div5{
+	background-color: #003377;
+}
+/*custom animation*/
+.wrapper .div6{
+	background-color: #003347;
+}
+
+.highlighted{
+	background-color: red ! important
+}
+.hover{
+	transition: 0.7s all linear;
+	font-size: 25px;
+	trasform:scale(1.2);
+	color:#fefefe;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 35px;
+	background-color: green !important
+}
+
+.animate{
+	transition:0.8s all linear;
+	transform:scale(1.2);
+	font-size: 25px;
+}
+
+/*image rotator*/
+.image-slider{
+	height: 520px
+}
+div#photoShow {
+    height: 450px;
+    position: relative;
+}
+#photoShow div{
+	position: absolute;
+	left: 0;
+	right: 0
+}
+#photoShow div.previous{
+	z-index: 1
+}
+#photoShow div.current{
+	z-index: 2
+}
+/*img-selct*/
+#sidebar-img{
+	width: 30%;
+	float: right;
+}
+#commentsSection { width: 150px; height: 150px; padding: 0.5em; }
+#selectable .ui-selected{
+	background-color: yellow
+}
+/*protected*/
